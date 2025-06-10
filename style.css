@@ -312,3 +312,20 @@ ul.menu li a:hover {
 .aviso-content button:hover {
   background-color: #218838;
 }
+
+
+.scroll-msg {
+  display: none;
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .scroll-msg {
+    display: block;
+  }
+}
+
